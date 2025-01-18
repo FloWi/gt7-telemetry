@@ -1,0 +1,10 @@
+[package]
+name = "gt7-telemetry"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gran-turismo-query = { version = "0.2.0", features = ["json"] }
+clap = { version = "4.5.26", features = ["derive"] }
+serde_json = "1.0.135"
+serde = { version = "1.0.217", features = ["derive"] }
